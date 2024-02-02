@@ -26,5 +26,5 @@ resource "aws_security_group" "websg" {
   }
 }
 output "instance_ips" {
-  value = aws_instance.tfvm.public_ip
+  value = aws_instance.skaylinkvm1.public_ip
 }
